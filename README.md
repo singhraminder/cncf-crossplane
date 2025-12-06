@@ -451,4 +451,50 @@ C:\work.0\cncf-crossplane>kubectl get bucket
 NAME                              READY   SYNCED   EXTERNAL-NAME                     AGE
 crossplane-minikube-demo-bucket   True    True     crossplane-minikube-demo-bucket   73s
 ```
-### 20 - Happy Crossplane
+
+### 20 - List CRDs
+
+```
+C:\work.0\cncf-crossplane>kubectl get crd
+NAME                                                            CREATED AT
+bucketaccesscontrols.storage.gcp.upbound.io                     2025-12-05T19:44:21Z
+bucketacls.storage.gcp.upbound.io                               2025-12-05T19:44:21Z
+bucketiammembers.storage.gcp.upbound.io                         2025-12-05T19:44:21Z
+bucketobjects.storage.gcp.upbound.io                            2025-12-05T19:44:21Z
+buckets.storage.gcp.upbound.io                                  2025-12-05T19:44:21Z
+clusterproviderconfigs.gcp.m.upbound.io                         2025-12-05T19:44:20Z
+clusterusages.protection.crossplane.io                          2025-12-05T19:00:12Z
+compositeresourcedefinitions.apiextensions.crossplane.io        2025-12-05T19:00:11Z
+compositionrevisions.apiextensions.crossplane.io                2025-12-05T19:00:11Z
+compositions.apiextensions.crossplane.io                        2025-12-05T19:00:11Z
+configurationrevisions.pkg.crossplane.io                        2025-12-05T19:00:11Z
+configurations.pkg.crossplane.io                                2025-12-05T19:00:11Z
+cronoperations.ops.crossplane.io                                2025-12-05T19:00:11Z
+defaultobjectaccesscontrols.storage.gcp.upbound.io              2025-12-05T19:44:21Z
+defaultobjectacls.storage.gcp.upbound.io                        2025-12-05T19:44:21Z
+deploymentruntimeconfigs.pkg.crossplane.io                      2025-12-05T19:00:11Z
+environmentconfigs.apiextensions.crossplane.io                  2025-12-05T19:00:11Z
+functionrevisions.pkg.crossplane.io                             2025-12-05T19:00:12Z
+functions.pkg.crossplane.io                                     2025-12-05T19:00:12Z
+imageconfigs.pkg.crossplane.io                                  2025-12-05T19:00:12Z
+locks.pkg.crossplane.io                                         2025-12-05T19:00:12Z
+managedresourceactivationpolicies.apiextensions.crossplane.io   2025-12-05T19:00:11Z
+managedresourcedefinitions.apiextensions.crossplane.io          2025-12-05T19:00:11Z
+notifications.storage.gcp.upbound.io                            2025-12-05T19:44:21Z
+objectaccesscontrols.storage.gcp.upbound.io                     2025-12-05T19:44:20Z
+objectacls.storage.gcp.upbound.io                               2025-12-05T19:44:20Z
+operations.ops.crossplane.io                                    2025-12-05T19:00:11Z
+providerconfigs.gcp.m.upbound.io                                2025-12-05T19:44:20Z
+providerconfigs.gcp.upbound.io                                  2025-12-05T19:44:20Z
+providerconfigusages.gcp.m.upbound.io                           2025-12-05T19:44:20Z
+providerconfigusages.gcp.upbound.io                             2025-12-05T19:44:20Z
+providerrevisions.pkg.crossplane.io                             2025-12-05T19:00:12Z
+providers.pkg.crossplane.io                                     2025-12-05T19:00:12Z
+usages.apiextensions.crossplane.io                              2025-12-05T19:00:11Z
+usages.protection.crossplane.io                                 2025-12-05T19:00:12Z
+watchoperations.ops.crossplane.io                               2025-12-05T19:00:11Z
+
+C:\work.0\cncf-crossplane>
+
+```
+### 21 - Happy Crossplane
