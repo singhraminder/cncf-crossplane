@@ -283,7 +283,7 @@ Settings from your current configuration [default] are:
 accessibility:
   screen_reader: 'False'
 core:
-  account: singhraminder@gmail.com
+  account: xx@yy.com
   disable_usage_reporting: 'True'
 
 Pick configuration to use:
@@ -305,12 +305,12 @@ Choose the account you want to use for this configuration.
 To use a federated user account, exit this command and sign in to the gcloud CLI with your login configuration file, then run this command again.
 
 Select an account:
- [1] singhraminder@gmail.com
+ [1] xx@yy.com
  [2] Sign in with a new Google Account
  [3] Skip this step
 Please enter your numeric choice:  1
 
-You are signed in as: [singhraminder@gmail.com].
+You are signed in as: [xx@yy.com].
 
 Pick cloud project to use:
  [1] covid19admin-278106
@@ -326,7 +326,7 @@ Please enter numeric choice or text value (must exactly match list item):  8
 Enter a Project ID. Note that a Project ID CANNOT be changed later.
 Project IDs must be 6-30 characters (lowercase ASCII, digits, or
 hyphens) in length and start with a lowercase letter. cncf-crossplane
-Waiting for [operations/create_project.global.8520585752544535217] to finish...done.
+Waiting for [operations/create_project.global.] to finish...done.
 Your current project has been set to: [cncf-crossplane].
 
 Not setting default zone/region (this feature makes it easier to use
@@ -341,7 +341,7 @@ https://console.developers.google.com/apis page.
 Error creating a default .boto configuration file. Please run [gsutil config -n] if you would like to create this file.
 The Google Cloud CLI is configured and ready to use!
 
-* Commands that require authentication will use singhraminder@gmail.com by default
+* Commands that require authentication will use xx@yy.com by default
 * Commands will reference project `cncf-crossplane` by default
 Run `gcloud help config` to learn how to change individual settings
 
